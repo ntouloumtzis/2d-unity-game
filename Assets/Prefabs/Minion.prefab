@@ -197,13 +197,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89b077aadbd275c4a81a30fe8c527116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
   player: {fileID: 0}
-  speed: 1
-  timeBetweenAttacks: 1
+  health: 2
+  speed: 3
+  timeBetweenAttacks: 2
   damage: 1
+  pickupChance: 20
+  pickups:
+  - {fileID: 8435202564253495921, guid: b5668a0270487894eb08b3d0dac8fef5, type: 3}
   stopDistance: 1
-  attackSpeed: 8
+  attackSpeed: 5
 --- !u!1 &6493744837292263927
 GameObject:
   m_ObjectHideFlags: 0
