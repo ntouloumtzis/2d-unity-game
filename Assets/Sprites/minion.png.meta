@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 51f1a8ad50ca8b943881fdfe8f847b58
+guid: cf2242a654f723e419b2dc25f1fb5cf9
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -14,6 +14,12 @@ TextureImporter:
   - first:
       213: -8244174728236160723
     second: minion_3
+  - first:
+      213: 2223739927697154483
+    second: minion_4
+  - first:
+      213: 4842036780750922039
+    second: minion_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,12 +112,12 @@ TextureImporter:
       name: minion_0
       rect:
         serializedVersion: 2
-        x: 63
-        y: 283
-        width: 627
-        height: 503
+        x: 18
+        y: 434
+        width: 305
+        height: 254
       alignment: 9
-      pivot: {x: 0.53356415, y: 0.0453547}
+      pivot: {x: 0.53089964, y: 0.036202498}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -127,12 +133,12 @@ TextureImporter:
       name: minion_1
       rect:
         serializedVersion: 2
-        x: 433
-        y: 72
-        width: 157
-        height: 176
+        x: 140
+        y: 272
+        width: 102
+        height: 106
       alignment: 9
-      pivot: {x: 0.5089364, y: 0.52391434}
+      pivot: {x: 0.5115494, y: 0.14436369}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,12 +154,12 @@ TextureImporter:
       name: minion_2
       rect:
         serializedVersion: 2
-        x: 335
-        y: 90
-        width: 73
-        height: 144
+        x: 93
+        y: 148
+        width: 84
+        height: 77
       alignment: 9
-      pivot: {x: 0.65375215, y: 0.83126026}
+      pivot: {x: 0.836584, y: 0.8059855}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -169,12 +175,12 @@ TextureImporter:
       name: minion_3
       rect:
         serializedVersion: 2
-        x: 168
-        y: 135
-        width: 156
-        height: 103
+        x: 199
+        y: 168
+        width: 91
+        height: 78
       alignment: 9
-      pivot: {x: 0.92269427, y: 0.67707574}
+      pivot: {x: 0.11163381, y: 0.6963405}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -182,6 +188,48 @@ TextureImporter:
       bones: []
       spriteID: d292b31a3cec69d80800000000000000
       internalID: -8244174728236160723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minion_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 14
+        width: 45
+        height: 93
+      alignment: 9
+      pivot: {x: 0.60471565, y: 0.82934606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1ed3faeaf4cde10800000000000000
+      internalID: 2223739927697154483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minion_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 21
+        width: 39
+        height: 73
+      alignment: 9
+      pivot: {x: 0.3489685, y: 0.8550268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731e8024cce523340800000000000000
+      internalID: 4842036780750922039
       vertices: []
       indices: 
       edges: []

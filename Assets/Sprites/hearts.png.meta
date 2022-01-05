@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9d02c7b6d4960da499f166c693c1cb7e
+guid: 98ab71358becb6448b8fad42a17d069d
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -100,10 +100,10 @@ TextureImporter:
       name: hearts_0
       rect:
         serializedVersion: 2
-        x: 54
-        y: 269
-        width: 256
-        height: 228
+        x: 57
+        y: 277
+        width: 250
+        height: 217
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,10 +121,10 @@ TextureImporter:
       name: hearts_1
       rect:
         serializedVersion: 2
-        x: 53
+        x: 55
         y: 20
-        width: 257
-        height: 228
+        width: 254
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

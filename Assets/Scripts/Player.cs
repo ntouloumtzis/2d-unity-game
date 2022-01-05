@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public float speed; // how fast the player can move
-    private Rigidbody2D rb; // this variable contains all the physics inside Unity
-    private Animator anim; // this variable contains all the animations inside Unity
+    public float speed; // how fast the player can move (with public keyword, the variable can show up on Unity's Inspector)
+    private Rigidbody2D rb; // contains all the physics inside Unity
     private Vector2 moveAmount; // calculate how much we want the player to move on
-
+    private Animator anim; // contains all the animations inside Unity
+    
     public int health; // player's health
 
-    public Image[] hearts;
+    public Image[] hearts; // an array containing our hearts UI
     public Sprite fullHeart; // red hearts
     public Sprite emptyHeart; // black hearts
 
@@ -55,7 +55,7 @@ public class Player : MonoBehaviour
     public void TakeDamage(int amount) 
     {
         health -= amount;
-        UpdateHealthUI(health);
+        UpdateHealthUI(health); // call the corresponding function with argument our health variable
 
         if (health <= 0) 
         {
@@ -75,24 +75,36 @@ public class Player : MonoBehaviour
 
     void UpdateHealthUI(int currentHealth) 
     { 
+        // a simple for loop for our hearts array
         for (int i = 0; i < hearts.Length; i++) 
         {
+            // if 0 < the current health of the player e.g 2...
             if (i < currentHealth) 
             {
+                // we are getting access to the red heart UI, so to increment the player's health
                 hearts[i].sprite = fullHeart;
             } else 
             {
+                // otherwise decrease player's health providing the black heart UI
                 hearts[i].sprite = emptyHeart;
             }
         }
     }
 
-    public void Heal(int healAmount) {
-        if (health + healAmount > 5) {
+    public void Heal(int healAmount) 
+    {
+        if (health + healAmount > 5) 
+        {
+            // do not excend the 5 hearts
             health = 5;
         } else {
-        health += healAmount;
+            
+            // otherwise provide with the heart pickup, when player is detected collision
+            health += healAmount;
         }
+
+        // call function to update the player's health UI
         UpdateHealthUI(health);
     }
 }
+

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0c7fbdb56d9e8d74bbe8d5df0ed563de
+guid: 5f51e3f181412934e9020ad5bf776c62
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -20,9 +20,6 @@ TextureImporter:
   - first:
       213: 829593232551909256
     second: summoner_5
-  - first:
-      213: -4971973694026115362
-    second: summoner_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,13 +112,13 @@ TextureImporter:
       name: summoner_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 452
-        width: 342
-        height: 232
+        x: 21
+        y: 378
+        width: 329
+        height: 303
       alignment: 9
-      pivot: {x: 0.4730781, y: 0.25691947}
-      border: {x: 15, y: 0, z: 0, w: 0}
+      pivot: {x: 0.46117187, y: 0.18571728}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -136,13 +133,13 @@ TextureImporter:
       name: summoner_1
       rect:
         serializedVersion: 2
-        x: 103
-        y: 380
-        width: 145
-        height: 67
+        x: 46
+        y: 294
+        width: 89
+        height: 60
       alignment: 9
-      pivot: {x: 0.50793743, y: 0.2251555}
-      border: {x: 0, y: 0, z: 0, w: 8}
+      pivot: {x: 0.9305981, y: 0.48064423}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -157,12 +154,12 @@ TextureImporter:
       name: summoner_2
       rect:
         serializedVersion: 2
-        x: 42
-        y: 288
-        width: 97
-        height: 68
+        x: 210
+        y: 302
+        width: 91
+        height: 54
       alignment: 9
-      pivot: {x: 0.8796829, y: 0.51692516}
+      pivot: {x: 0.12991081, y: 0.58602226}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,12 +175,12 @@ TextureImporter:
       name: summoner_3
       rect:
         serializedVersion: 2
-        x: 219
-        y: 295
-        width: 81
-        height: 68
+        x: 113
+        y: 211
+        width: 36
+        height: 43
       alignment: 9
-      pivot: {x: 0.14478047, y: 0.44922504}
+      pivot: {x: 0.5322579, y: 0.82408565}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,12 +196,12 @@ TextureImporter:
       name: summoner_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 44
-        width: 165
-        height: 130
+        x: 210
+        y: 209
+        width: 37
+        height: 45
       alignment: 9
-      pivot: {x: 0.5069753, y: 0.73903537}
+      pivot: {x: 0.49999958, y: 0.8096819}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,12 +217,12 @@ TextureImporter:
       name: summoner_5
       rect:
         serializedVersion: 2
-        x: 107
-        y: 209
-        width: 40
-        height: 47
+        x: 96
+        y: 46
+        width: 162
+        height: 124
       alignment: 9
-      pivot: {x: 0.6726368, y: 0.76936245}
+      pivot: {x: 0.5215055, y: 0.116017774}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -233,27 +230,6 @@ TextureImporter:
       bones: []
       spriteID: 887135e46ae438b00800000000000000
       internalID: 829593232551909256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: summoner_6
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 207
-        width: 38
-        height: 46
-      alignment: 9
-      pivot: {x: 0.5000008, y: 0.8502778}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed69cf69440000bb0800000000000000
-      internalID: -4971973694026115362
       vertices: []
       indices: 
       edges: []

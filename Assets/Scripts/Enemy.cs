@@ -26,26 +26,32 @@ public class Enemy : MonoBehaviour
     }
 
     // how much damage the enemy takes. The function takes as parameter the damage amount
-    public void TakeDamage(int amount) {
+    public void TakeDamage(int amount) 
+    {
         health -= amount;
 
         // check whether enemy's health drop to zero, then destroy
         if (health <= 0) 
         {
+            // the random.range function excludes the last number, so that's why we need 101
             int randomNumber = Random.Range(0, 101);
             if (randomNumber < pickupChance) {
+
+                // select what to spawn from our variety of pickups
                 GameObject randomPickup = pickups[Random.Range(0, pickups.Length)];
+
+                // spawn it
                 Instantiate(randomPickup, transform.position, transform.rotation);
             }
 
+            // the same as weapon pickups
             int randHealth = Random.Range(0, 101);
-            if (randHealth < healthPickupChance) {
+            if (randHealth < healthPickupChance) 
+            {
                 Instantiate(healthPickup, transform.position, transform.rotation);
             }
 
             Destroy(this.gameObject);
         }
     }
-
-    
 }

@@ -16,7 +16,7 @@ public class Projectile : MonoBehaviour
     {
         // Invoke(our function which will destroy our projectile, how long will it survive in the game). 
         // In other words, when lifeTime is passed, destroy the bullet
-        Invoke("DestroyProjectile", lifeTime);        
+        Invoke("DestroyProjectile", lifeTime);    
     }
 
     private void Update()
@@ -27,11 +27,11 @@ public class Projectile : MonoBehaviour
 
     void DestroyProjectile() 
     {
-        // destroy projectile
-        Destroy(gameObject);
-
         // spawn(What are we spawning, at what position, at what rotation)
         Instantiate(explosion, transform.position, Quaternion.identity);
+
+        // destroy projectile
+        Destroy(gameObject);
     }
 
     // a built-in Unity function, which stores the object that it is collided with (in our case projectile with an enemy)
@@ -42,6 +42,14 @@ public class Projectile : MonoBehaviour
         {
             // call our function, so enemy's health drop
             collision.GetComponent<Enemy>().TakeDamage(damage);
+            DestroyProjectile();
+        }
+
+        // check if our object is collided with the below tag
+        if (collision.tag == "boss") 
+        {
+            // call our function, so bosses health drops
+            collision.GetComponent<Boss>().TakeDamage(damage);
             DestroyProjectile();
         }
     }

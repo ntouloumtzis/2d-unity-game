@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4b40c4e382abbee48b9bdc9af8237412
+guid: ab3782afe6e34ad4a9cf9fe07f7a8f1e
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -112,13 +112,13 @@ TextureImporter:
       name: rangedEnemy_0
       rect:
         serializedVersion: 2
-        x: 68
-        y: 669
-        width: 470
-        height: 393
+        x: 66
+        y: 667
+        width: 476
+        height: 389
       alignment: 9
-      pivot: {x: 0.5188067, y: 0.072662584}
-      border: {x: 18, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5112424, y: 0.064367145}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -133,12 +133,12 @@ TextureImporter:
       name: rangedEnemy_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 556
-        width: 150
-        height: 101
+        x: 27
+        y: 554
+        width: 142
+        height: 95
       alignment: 9
-      pivot: {x: 0.84178007, y: 0.57001334}
+      pivot: {x: 0.87685966, y: 0.72532254}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -154,12 +154,12 @@ TextureImporter:
       name: rangedEnemy_2
       rect:
         serializedVersion: 2
-        x: 443
-        y: 538
-        width: 143
-        height: 115
+        x: 448
+        y: 537
+        width: 144
+        height: 108
       alignment: 9
-      pivot: {x: 0.1909393, y: 0.6690971}
+      pivot: {x: 0.15315014, y: 0.7807838}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: rangedEnemy_3
       rect:
         serializedVersion: 2
-        x: 160
-        y: 420
-        width: 76
-        height: 113
+        x: 375
+        y: 408
+        width: 64
+        height: 118
       alignment: 9
-      pivot: {x: 0.6163051, y: 0.84417886}
+      pivot: {x: 0.47212887, y: 0.877924}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -196,12 +196,12 @@ TextureImporter:
       name: rangedEnemy_4
       rect:
         serializedVersion: 2
-        x: 369
-        y: 409
-        width: 74
-        height: 120
+        x: 164
+        y: 419
+        width: 68
+        height: 116
       alignment: 9
-      pivot: {x: 0.5477794, y: 0.83883363}
+      pivot: {x: 0.60492885, y: 0.8383073}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -217,12 +217,12 @@ TextureImporter:
       name: rangedEnemy_5
       rect:
         serializedVersion: 2
-        x: 98
-        y: 11
-        width: 430
-        height: 395
+        x: 93
+        y: 10
+        width: 437
+        height: 389
       alignment: 9
-      pivot: {x: 0.48355514, y: 0.074826196}
+      pivot: {x: 0.4877543, y: 0.06436706}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

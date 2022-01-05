@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ed859b1bd30c3d64b96164dff7726481
+guid: f38ba552682dd874fac18a3a3f694c6f
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -100,12 +100,12 @@ TextureImporter:
       name: gun_0
       rect:
         serializedVersion: 2
-        x: 213
-        y: 10
-        width: 197
-        height: 392
+        x: 220
+        y: 12
+        width: 191
+        height: 391
       alignment: 9
-      pivot: {x: 0.4955658, y: 0.05656803}
+      pivot: {x: 0.5, y: 0.028625898}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,10 +121,10 @@ TextureImporter:
       name: gun_1
       rect:
         serializedVersion: 2
-        x: 81
-        y: 25
-        width: 53
-        height: 141
+        x: 82
+        y: 27
+        width: 52
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

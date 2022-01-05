@@ -7,8 +7,8 @@ public class RangedEnemy : Enemy
 
     public float stopDistance; // when enemy reaches the player's range
     private float attackTime; // when enemy is allowed to attack
-
     private Animator anim; // access animations from Unity
+
     public Transform shotPoint;
     public GameObject enemyBullet; // define the projectile the enemy will fire
 

@@ -17,7 +17,7 @@ public class Weapon : MonoBehaviour
         // That's why, we need to calculate the Input.mousePosition in units, using the below function and then subtract it with the weapons position.
         Vector2 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
 
-        // We need to transfrom the above direction into an angle, using the below function and, then multiply it with Mathf.Rad2Deg to convert it into degrees instead of radians (1 radian = 180/π degrees)
+        // We need to transfrom the above direction into an angle, using the below function and, then multiply it with Mathf.Rad2Deg to convert it into degrees instead of radians (1 radian = 180/p degrees)
         // So we calculate the angle the weapon must rotate around to face the cursor
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
@@ -28,9 +28,11 @@ public class Weapon : MonoBehaviour
         transform.rotation = rotation;
 
         // check when player press the left mouse button
-        if(Input.GetMouseButton(0)) {
+        if(Input.GetMouseButton(0)) 
+        {
             // check if we're allowed to shoot
-            if (Time.time >= shotTime) {
+            if (Time.time >= shotTime) 
+            {
                 // spawn projectile (the type we choose from Unity, the spawn location, the weapons rotation)
                 Instantiate(projectile, shotPoint.position, transform.rotation);
 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 129d3542505818b4193663aad22bd3bf
+guid: 20a4e6dfcf5c57345b79ba43329615d6
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -118,12 +118,12 @@ TextureImporter:
       name: boss_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 67
-        width: 383
-        height: 366
+        x: 83
+        y: 77
+        width: 358
+        height: 347
       alignment: 9
-      pivot: {x: 0.4999999, y: 0.45556024}
+      pivot: {x: 0.5100962, y: 0.06251519}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,12 +139,12 @@ TextureImporter:
       name: boss_1
       rect:
         serializedVersion: 2
-        x: 168
-        y: 441
-        width: 203
-        height: 204
+        x: 519
+        y: 18
+        width: 806
+        height: 728
       alignment: 9
-      pivot: {x: 0.90951973, y: 0.8720766}
+      pivot: {x: 0.5, y: 0.04322779}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: boss_2
       rect:
         serializedVersion: 2
-        x: 116
-        y: 657
-        width: 266
-        height: 131
+        x: 918
+        y: 844
+        width: 109
+        height: 191
       alignment: 9
-      pivot: {x: 0.92802787, y: 0.77591336}
+      pivot: {x: 0.48342028, y: 0.8974015}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: boss_3
       rect:
         serializedVersion: 2
-        x: 111
-        y: 849
-        width: 318
-        height: 199
+        x: 1114
+        y: 786
+        width: 150
+        height: 258
       alignment: 9
-      pivot: {x: 0.11354847, y: 0.12765642}
+      pivot: {x: 0.16265056, y: 0.9132813}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: boss_4
       rect:
         serializedVersion: 2
-        x: 517
-        y: 880
-        width: 307
-        height: 135
+        x: 526
+        y: 873
+        width: 298
+        height: 150
       alignment: 9
-      pivot: {x: 0.0879284, y: 0.6874168}
+      pivot: {x: 0.05728948, y: 0.6686751}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,12 +223,12 @@ TextureImporter:
       name: boss_5
       rect:
         serializedVersion: 2
-        x: 922
-        y: 849
-        width: 101
-        height: 192
+        x: 121
+        y: 851
+        width: 311
+        height: 191
       alignment: 9
-      pivot: {x: 0.51789415, y: 0.857681}
+      pivot: {x: 0.075795166, y: 0.12152291}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,12 +244,12 @@ TextureImporter:
       name: boss_6
       rect:
         serializedVersion: 2
-        x: 1110
-        y: 791
-        width: 154
-        height: 255
+        x: 125
+        y: 654
+        width: 260
+        height: 139
       alignment: 9
-      pivot: {x: 0.24182525, y: 0.86853313}
+      pivot: {x: 0.9448564, y: 0.7470317}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,12 +265,12 @@ TextureImporter:
       name: boss_7
       rect:
         serializedVersion: 2
-        x: 523
-        y: 16
-        width: 800
-        height: 739
+        x: 192
+        y: 442
+        width: 175
+        height: 196
       alignment: 9
-      pivot: {x: 0.50000006, y: 0.052472442}
+      pivot: {x: 0.92340803, y: 0.8872637}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

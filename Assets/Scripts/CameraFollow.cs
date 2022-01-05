@@ -19,7 +19,7 @@ public class CameraFollow : MonoBehaviour {
         transform.position = target.position;
     }
 
-    private void LateUpdate()
+    private void Update()
     {
         // check in case target dies (When player dies target === null)
         if (target != null)

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eee210a262cb0ba4a8ae5e4e461aaceb
+guid: b1c363a1c51cc914498bca8479da3359
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -112,13 +112,13 @@ TextureImporter:
       name: particles_0
       rect:
         serializedVersion: 2
-        x: 44
+        x: 45
         y: 55
-        width: 113
-        height: 120
+        width: 114
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 8}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -133,10 +133,10 @@ TextureImporter:
       name: particles_1
       rect:
         serializedVersion: 2
-        x: 201
-        y: 65
-        width: 111
-        height: 93
+        x: 204
+        y: 61
+        width: 108
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,13 +154,13 @@ TextureImporter:
       name: particles_2
       rect:
         serializedVersion: 2
-        x: 347
-        y: 49
-        width: 140
-        height: 143
+        x: 350
+        y: 48
+        width: 135
+        height: 148
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 10, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -175,13 +175,13 @@ TextureImporter:
       name: particles_3
       rect:
         serializedVersion: 2
-        x: 542
-        y: 53
+        x: 547
+        y: 50
         width: 136
         height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 10, y: 0, z: 0, w: 6}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -196,10 +196,10 @@ TextureImporter:
       name: particles_4
       rect:
         serializedVersion: 2
-        x: 724
-        y: 72
-        width: 60
-        height: 115
+        x: 730
+        y: 71
+        width: 54
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +217,10 @@ TextureImporter:
       name: particles_5
       rect:
         serializedVersion: 2
-        x: 825
-        y: 67
-        width: 114
-        height: 126
+        x: 833
+        y: 70
+        width: 103
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

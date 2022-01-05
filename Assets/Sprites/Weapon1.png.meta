@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3002ac0f59fe8d14f91096bc1ed56a72
+guid: 953e59bd23efd4f42a37fe9da867e1cd
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -100,13 +100,13 @@ TextureImporter:
       name: Weapon1_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 261
+        x: 13
+        y: 257
         width: 212
-        height: 243
+        height: 235
       alignment: 9
-      pivot: {x: 0.5514566, y: 0.044172246}
-      border: {x: 0, y: 0, z: 0, w: 13}
+      pivot: {x: 0.5479275, y: 0.049616907}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -121,13 +121,13 @@ TextureImporter:
       name: Weapon1_1
       rect:
         serializedVersion: 2
-        x: 92
-        y: 10
-        width: 68
+        x: 94
+        y: 11
+        width: 73
         height: 225
       alignment: 9
-      pivot: {x: 0.5863814, y: 0.045001112}
-      border: {x: 6, y: 0, z: 0, w: 0}
+      pivot: {x: 0.51159835, y: 0.044652592}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0

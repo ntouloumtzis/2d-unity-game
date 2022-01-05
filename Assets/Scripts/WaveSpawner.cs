@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour 
 {
-    [System.Serializable] // we can tweak the wave system inside of Unity
+    [System.Serializable] // so we can tweak the wave system inside of Unity
     public class Wave 
     {
         public Enemy[] enemies; // an array, which contains every possible enemy to spawn

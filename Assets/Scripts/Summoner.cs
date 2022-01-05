@@ -11,8 +11,8 @@ public class Summoner : Enemy
     public float maxY;
     
     private Vector2 targetPosition; // store the position of a selected area of the map, where he'll spawn his minions
-    private Animator anim; // store the animation values from Unity
-    public Enemy enemyToSummon; // store the desired enemy 
+    private Animator anim; // store the animation values from Unity 
+    public Enemy enemyToSummon; // store the desired enemy
 
     public float timeBetweenSummons; // summon speed
     private float summonTime; // when summoner is allowed to summon an enemy
@@ -20,7 +20,7 @@ public class Summoner : Enemy
     public float stopDistance; // how far can summoner hit the player, so he needs to stop
     private float attackTime; // when is he allowed to attack
 
-    // We need to override the Start function of the general enemy script
+    // We need to override the Start function of the general enemy script (we don't want to run the enemy script's start function)
     public override void Start()
     {
         base.Start(); // call the start function from the enemy script
