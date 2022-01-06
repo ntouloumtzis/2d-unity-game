@@ -128,4 +128,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 1796148280289486637, guid: a8b8bc5389d45a04883d8218134f0832, type: 3}
   shotPoint: {fileID: 6654173968733439448}
-  timeBetweenShots: 1.5
+  timeBetweenShots: 1.2

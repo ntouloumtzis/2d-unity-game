@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
-  lifeTime: 1
+  lifeTime: 0.6
   explosion: {fileID: 1668816942037663105, guid: 1561b33310c673243bc8e4c040fd8c74, type: 3}
   damage: 3
   soundObject: {fileID: 2514026042157858445, guid: e96660fe7af6b0a43b72dade53e96abb, type: 3}

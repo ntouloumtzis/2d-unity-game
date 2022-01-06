@@ -312,16 +312,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  health: 3
-  speed: 4
+  health: 4
+  speed: 5
   timeBetweenAttacks: 4
   damage: 0
-  pickupChance: 20
+  pickupChance: 15
   pickups:
   - {fileID: 5795107463319326397, guid: a18dac71f231ece48a821cee98c82d92, type: 3}
-  - {fileID: 2254250613981476213, guid: 00d8eae62ff184b469a3f7edad3ed315, type: 3}
-  healthPickupChance: 0
-  healthPickup: {fileID: 0}
+  - {fileID: 3965370170250470056, guid: 324dfe94b7438174b9f7a28b4297f059, type: 3}
+  healthPickupChance: 5
+  healthPickup: {fileID: 5231087803391807906, guid: 6843aeec02c00ad43b156d19ecc557cd, type: 3}
   deathEffect: {fileID: 2808770303938186670, guid: 540627fca671dd248bd3cd4103aa0f64, type: 3}
   stopDistance: 8
   shotPoint: {fileID: 374472007576162557}
