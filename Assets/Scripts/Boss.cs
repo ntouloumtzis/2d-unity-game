@@ -20,7 +20,7 @@ public class Boss : MonoBehaviour
 
     private Slider healthBar; // reference to our slider
 
-    // private SceneTransition sceneTransitions;
+    private SceneTransitions sceneTransitions;
 
     private void Start()
     {
@@ -29,7 +29,7 @@ public class Boss : MonoBehaviour
         healthBar = FindObjectOfType<Slider>(); // find the component attached to it
         healthBar.maxValue = health; // slider's max value to be equal to bosses health
         healthBar.value = health; // make sure that healthBar starts as full
-        // sceneTransitions = FindObjectOfType<SceneTransition>();
+        sceneTransitions = FindObjectOfType<SceneTransitions>();
     }
 
     // everytime boss takes damage, he lose health and spawn an enemy
@@ -46,7 +46,7 @@ public class Boss : MonoBehaviour
             Instantiate(blood, transform.position, Quaternion.identity);
             Destroy(this.gameObject); // destroy boss object
             healthBar.gameObject.SetActive(false); // health bar disappears as well
-            // sceneTransitions.LoadScene("Win");
+            sceneTransitions.LoadScene("Win");
         }
 
         // if its equal or lower his half health

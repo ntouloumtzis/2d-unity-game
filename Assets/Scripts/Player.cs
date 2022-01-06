@@ -18,12 +18,15 @@ public class Player : MonoBehaviour
 
     public Animator hurtAnim;
 
+    private SceneTransitions sceneTransitions;
+
     // Start is called before the first frame update of the game
     private void Start()
     {
         // Attach components to our player character (animations & physics)
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        sceneTransitions = FindObjectOfType<SceneTransitions>();
     }
 
     // Update is called in every single frame
@@ -63,6 +66,7 @@ public class Player : MonoBehaviour
         if (health <= 0) 
         {
             Destroy(this.gameObject);
+            sceneTransitions.LoadScene("Loss");
         }
     }
 
