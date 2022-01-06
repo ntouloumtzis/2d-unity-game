@@ -12,11 +12,16 @@ public class Projectile : MonoBehaviour
 
     public int damage; // the damage the enemy takes
 
+    public GameObject soundObject;
+
     private void Start()
     {
         // Invoke(our function which will destroy our projectile, how long will it survive in the game). 
         // In other words, when lifeTime is passed, destroy the bullet
         Invoke("DestroyProjectile", lifeTime);    
+
+        // spawn the sound object
+        Instantiate(soundObject, transform.position, transform.rotation);
     }
 
     private void Update()

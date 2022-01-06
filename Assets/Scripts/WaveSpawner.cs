@@ -24,6 +24,8 @@ public class WaveSpawner : MonoBehaviour
     public GameObject boss; // reference boss
     public Transform bossSpawnPoint; // which position does he spawn
 
+    public GameObject healthBar;
+
     private void Start()
     {
         // reference the player with its corresponding tag and start the first wave
@@ -48,6 +50,7 @@ public class WaveSpawner : MonoBehaviour
             } else {
                 // spawn (who spawns, which position, which rotation)
                 Instantiate(boss, bossSpawnPoint.position, bossSpawnPoint.rotation);
+                healthBar.SetActive(true);
             }
         }
     }

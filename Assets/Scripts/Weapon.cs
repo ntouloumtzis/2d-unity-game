@@ -9,7 +9,7 @@ public class Weapon : MonoBehaviour
     public Transform shotPoint; // From where do we want to spawn
     public float timeBetweenShots; // attack speed of the weapon
     private float shotTime; // this variable will contain the exact time we can shoot at
-    
+
     private void Update()
     {
         // the Input.mousePosition returns pixel coordinates and transform.position returns Unity's default unit size. 

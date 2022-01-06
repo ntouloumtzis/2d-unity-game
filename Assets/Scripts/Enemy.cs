@@ -19,6 +19,8 @@ public class Enemy : MonoBehaviour
     public int healthPickupChance;
     public GameObject healthPickup;
 
+    public GameObject deathEffect;
+
     public virtual void Start() 
     {
         // We define the Player tag to our player
@@ -51,6 +53,7 @@ public class Enemy : MonoBehaviour
                 Instantiate(healthPickup, transform.position, transform.rotation);
             }
 
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
     }

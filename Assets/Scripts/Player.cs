@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     public Sprite fullHeart; // red hearts
     public Sprite emptyHeart; // black hearts
 
+    public Animator hurtAnim;
+
     // Start is called before the first frame update of the game
     private void Start()
     {
@@ -56,6 +58,7 @@ public class Player : MonoBehaviour
     {
         health -= amount;
         UpdateHealthUI(health); // call the corresponding function with argument our health variable
+        hurtAnim.SetTrigger("hurt"); // pass the hurt trigger when player's being hit
 
         if (health <= 0) 
         {

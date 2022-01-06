@@ -11,6 +11,8 @@ public class EnemyBullet : MonoBehaviour
     public float speed; // projectile's speed
     public int damage; // projectile's damage
 
+    public GameObject effect;
+
     private void Start()
     {
         // point to the player
@@ -20,14 +22,17 @@ public class EnemyBullet : MonoBehaviour
 
     private void Update()
     {
-        // if bullet didn't reach player
-        if (Vector2.Distance(transform.position, targetPosition) > .1f) 
+        // when bullet reaches the player
+        if ((Vector2)transform.position == targetPosition) 
         {
-            // continue to move forward
-            transform.position = Vector2.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
-        } else {
+            // spawn the particle effect
+            Instantiate(effect, transform.position, Quaternion.identity);
+
             // destroy when reached player
             Destroy(gameObject);
+        } else {
+            // if bullet didn't reach player, then continue to move forward
+            transform.position = Vector2.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
         }
     }
 

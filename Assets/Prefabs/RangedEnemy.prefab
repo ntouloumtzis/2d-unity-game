@@ -320,6 +320,9 @@ MonoBehaviour:
   pickups:
   - {fileID: 5795107463319326397, guid: a18dac71f231ece48a821cee98c82d92, type: 3}
   - {fileID: 2254250613981476213, guid: 00d8eae62ff184b469a3f7edad3ed315, type: 3}
+  healthPickupChance: 0
+  healthPickup: {fileID: 0}
+  deathEffect: {fileID: 2808770303938186670, guid: 540627fca671dd248bd3cd4103aa0f64, type: 3}
   stopDistance: 8
   shotPoint: {fileID: 374472007576162557}
   enemyBullet: {fileID: 7635367322379275639, guid: ae23d8f633c42694380162076da417bb, type: 3}

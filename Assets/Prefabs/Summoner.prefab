@@ -370,6 +370,9 @@ MonoBehaviour:
   pickupChance: 10
   pickups:
   - {fileID: 3965370170250470056, guid: 324dfe94b7438174b9f7a28b4297f059, type: 3}
+  healthPickupChance: 0
+  healthPickup: {fileID: 0}
+  deathEffect: {fileID: 2808770303938186670, guid: 540627fca671dd248bd3cd4103aa0f64, type: 3}
   minX: -16.55
   maxX: 16.53
   minY: -9.11
