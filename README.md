@@ -60,7 +60,3 @@ git clone https://github.com/ntouloumtzis/little-dungeon.git
 - Game Engine: [Unity](https://unity3d.com/)
 - Image Editor: [Gimp](https://www.gimp.org/)
 - Audio Editor: [Audacity](https://www.audacityteam.org/)
-
-## License
-
-MIT @ [Nikitas Touloumtzis](https://github.com/ntouloumtzis)
