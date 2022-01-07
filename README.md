@@ -3,7 +3,7 @@
 ***Little Dungeon*** is a Unity developed game, which created for academic purposes for the Multimedia course of fifth semester at Ionian University. It is free and open source
 and always will be. :tada:
 
-| <a href="#gettingstarted">:sparkles: Getting Started</a> | <a href="#requirement">:newspaper: Requirements</a> | <a href="#play">:rocket: Play Now</a> | <a href="#screenshot">:camera: Screenshots</a> | [:movie_camera: **Video presentation (eng subs)**]() |
+| <a href="#gettingstarted">:sparkles: Getting Started</a> | <a href="#requirement">:newspaper: Requirements</a> | <a href="#play">:rocket: Play Now</a> | <a href="#screenshot">:camera: Screenshots</a> | [:movie_camera: **Video presentation**]() |
 | --------------- | -------- | ----------- | ----------- | ----------- |
 
 <p align="center">
