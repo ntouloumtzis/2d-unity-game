@@ -55,7 +55,7 @@ public class WaveSpawner : MonoBehaviour
         }
     }
 
-    // A coroutine, which waits for a period of time based on how much the timeBetweenAttacks is and call a coroutine with the next wave
+    // A coroutine, which waits for a period of time based on how much the timeBetweenWaves is and call a coroutine with the next wave
     IEnumerator CallNextWave(int waveIndex) 
     {
         yield return new WaitForSeconds(timeBetweenWaves);
@@ -89,7 +89,7 @@ public class WaveSpawner : MonoBehaviour
                 spawningFinished = false;
             }
 
-            // call the next wave based on timeBetweenAttacks input value
+            // call the next wave based on timeBetweenWaves input value
             yield return new WaitForSeconds(currentWave.timeBetweenSpawns);
         }
     }
